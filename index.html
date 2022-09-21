@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello HTML!</title>
-  </head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello HTML!</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
 
-  <body>
-    <header>
-      <!-- Headers -->
-      <h1>Student Bio</h1>
-      <h2>Darryl Tillman</h2>
-    </header>
-
-    <section>
-      <img src="./assets/beaver200.jpg" alt="happy beaver" />
+    <body>
+        <header>
+        <!-- Headers -->
+            <h1 class="title">Student Bio</h1>
       
-      <p>I live to fight small cotton filled bears to the end of their existence.</p>
-      <p>
-        
-      <strong>Contact Info</strong>.</p>
-     <!-- Unordered list -->
-       <ul>
-        <li>
-          <strong>Email</strong>
-          <a href="dtillman@uw.edu"> Link</a>
-        </li>
-        <li>
-          <strong>GitHub</strong>
-          <a href="https://github.com/Tales64">Link 2</a>
-        </li>
-        <li>
-          <strong>Portfolio</strong>
-          <a href="https://www.deviantart.com/tales64"> Dont do it</a>
-      </ul>
+        </header>
 
-    </section>
+        <main class="lesson"> 
+            <h2 class="title">Darryl Tillman</h2>
+             
+                <img src="./assets/beaver200.jpg" alt="happy beaver" />
+             
+                <p>I live to fight small cotton filled bears to the end of their existence. </p>
+        </main>
+
+        <div class="lesson">
+            <h2 class="title"><strong>Contact Info</strong>.</h2>
+                <ul>
+                    <li id="email">
+                        <section class="box box-orange">
+                            <strong>Email</strong>
+                            <a href="mailto:dtillman@uw.edu"> Link</a>
+                        </section>
+                    </li>
+                    <li id="github">
+                        <section class="box box-yellow">
+                            <strong>GitHub</strong>
+                            <a href="https://github.com/Tales64">Push</a>
+                        </section>
+                    </li>
+                    <li id="portfolio">
+                        <section class="box box-blue">
+                            <strong>Portfolio</strong>
+                            <a href="https://www.deviantart.com/tales64" target="blank"> Dont do it</a>
+                        </section>    
+                    </li>
+                </ul>
+         </div>
+         <div id="section-black">
+            <h2> 
+          
+                Favorite Foods
+            </h2>
+            <ul class="lesson">
+                <li> Lasaugna</li>
+                <li> Pizza with chicken onions and pineapple</li>
+                <li> Lasaugna</li>
+            
+            </ui>
+         </div>
+    
+
+    </main>
   </body>
 
 </html>

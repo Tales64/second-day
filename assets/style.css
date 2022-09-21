@@ -1,18 +1,49 @@
-.lesson  {
-  background-color: lemonchiffon;
+.lesson {
+  background-color: rgb(5, 226, 189);
 }
 
-#paragraph-1 {
-  color: darkslateblue;
-  background-color: white;
+.title {
+  color: darkblue;
 }
 
-#paragraph-2 {
-  color: darkslateblue;
-  background-color: darkorange;
+.email {
+  background-color: goldenrod;
 }
 
-#paragraph-3 {
-    color: white;
-    background-color: darkslateblue;
+.github {
+  background-color: lightsteelblue;
+}
+
+.portfolio {
+  background-color: rgb(228, 214, 17);
+}
+.box {
+  /*Sets the height and width of the section */
+  width: 100px;
+  height: 50px
+}
+
+.box-blue {
+  /* Sets font color */
+  color: #f64eff;
+  /* Sets background color */
+  background-color: #ffa14e;
+}
+
+.box-orange {
+  /* Uses hex codes to define color */
+  color: #f64eff;
+  background-color: #57ff4e;
+}
+
+.box-yellow {
+  /* Uses predefined colors to define color */
+  color: #f64eff;
+  background-color: #0a0804;
+};
+
+.section-black {
+  width: 200px;
+  height: 200px;
+  background-color: black;
 }
